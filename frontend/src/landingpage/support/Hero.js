@@ -41,7 +41,7 @@ function Hero() {
 
           <ol className="mt-3 text-start">
             <li>
-              <a href="" className="text-white">
+              <a href="#" className="text-white">
                 Overview of platform features
               </a>
             </li>
