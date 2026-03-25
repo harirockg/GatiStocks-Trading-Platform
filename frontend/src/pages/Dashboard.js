@@ -1,4 +1,5 @@
-import React, { useEffect, useState, useContext } from "react";
+//import React from "react";
+import React, {useContext } from "react";
 //import axios from "axios";
 import { AuthContext } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
@@ -7,7 +8,7 @@ import TopBar from "../components/TopBar";
 import Watchlist from "../components/Watchlist";
 import Holdings from "../components/Holdings";
 import Orders from "../components/Orders";
-import MarketOverview from "../components/MarketOverview"; // 🔥 ONLY THIS
+import MarketOverview from "../components/MarketOverview"; 
 import MarketStats from "../components/MarketStats";
 
 function Dashboard() {
