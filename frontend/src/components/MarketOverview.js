@@ -17,7 +17,7 @@ function MarketOverview() {
   useEffect(() => {
 
     const fetchMarket = () => {
-      axios.get("http://localhost:3002/stocks")
+      axios.get("https://gatistocks-backend.onrender.com/stocks")
         .then(res => {
 
           const stocks = res.data || [];

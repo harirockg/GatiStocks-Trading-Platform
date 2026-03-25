@@ -12,7 +12,7 @@ function Watchlist() {
 
     const fetchStocks = () => {
       axios
-        .get("http://localhost:3002/stocks")
+        .get("https://gatistocks-backend.onrender.com/stocks")
         .then((res) => {
           setStocks(res.data);
           setLoading(false);

@@ -16,7 +16,7 @@ function Signup() {
     try {
 
       if (isLogin) {
-        const res = await axios.post("http://localhost:3002/auth/login", data);
+        const res = await axios.post("https://gatistocks-backend.onrender.com/auth/login", data);
 
         login(res.data);
 
@@ -24,7 +24,7 @@ function Signup() {
         navigate("/dashboard");
 
       } else {
-        await axios.post("http://localhost:3002/auth/signup", data);
+        await axios.post("https://gatistocks-backend.onrender.com/auth/signup", data);
 
         toast.success("Signup Successful ✅");
         setIsLogin(true);

@@ -42,7 +42,7 @@ function BuySellModal({ stock, close }) {
           ? priceData[priceData.length - 1]
           : stock.price;
 
-      await axios.post("http://localhost:3002/trade/buy", {
+      await axios.post("https://gatistocks-backend.onrender.com/trade/buy", {
         userId,
         name: stock.name,
         qty: Number(qty),
@@ -66,7 +66,7 @@ function BuySellModal({ stock, close }) {
           ? priceData[priceData.length - 1]
           : stock.price;
 
-      await axios.post("http://localhost:3002/trade/sell", {
+      await axios.post("https://gatistocks-backend.onrender.com/trade/sell", {
         userId,
         name: stock.name,
         qty: Number(qty),

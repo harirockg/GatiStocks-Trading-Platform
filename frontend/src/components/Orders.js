@@ -7,7 +7,7 @@ function Orders(){
   const userId = localStorage.getItem("userId");
 
   useEffect(()=>{
-    axios.get(`http://localhost:3002/trade/orders/${userId}`)
+    axios.get(`https://gatistocks-backend.onrender.com/trade/orders/${userId}`)
       .then(res=>setData(res.data));
   },[]);
 

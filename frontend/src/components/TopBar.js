@@ -41,11 +41,11 @@ function TopBar() {
 
     if (!userId) return;
 
-    axios.get(`http://localhost:3002/auth/user/${userId}`)
+    axios.get(`https://gatistocks-backend.onrender.com/auth/user/${userId}`)
       .then(res => setBalance(res.data.balance || 0))
       .catch(() => setBalance(0));
 
-    axios.get(`http://localhost:3002/trade/holdings/${userId}`)
+    axios.get(`https://gatistocks-backend.onrender.com/trade/holdings/${userId}`)
       .then(res => {
 
         const data = res.data || [];

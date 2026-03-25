@@ -13,7 +13,7 @@ function Holdings() {
     if (!userId) return;
 
     axios
-      .get(`http://localhost:3002/trade/holdings/${userId}`)
+      .get(`https://gatistocks-backend.onrender.com/trade/holdings/${userId}`)
       .then(res => setData(res.data || []))
       .catch(() => setData([]));
   };
