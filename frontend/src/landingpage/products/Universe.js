@@ -15,7 +15,7 @@ function Universe() {
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/streakk.png" />
+          <img src="media/images/Streakk.png" />
           <p className="text-small text-muted">Strategy management</p>
         </div>
         <div className="col-4 p-3 mt-5">
