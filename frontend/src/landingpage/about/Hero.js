@@ -39,7 +39,7 @@ function Hero() {
             community-oriented features to enhance users’ financial awareness.
           </p>
           <p>
-            <a href="" style={{ textDecoration: "none" }}>
+            <a href="#" style={{ textDecoration: "none" }}>
               GatiStocks Ecosystem
             </a>
             , the platform highlights a connected set of features and tools

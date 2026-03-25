@@ -10,7 +10,7 @@ function Hero() {
       {/* Top */}
       <div className="text-center mb-4">
         <h4>Help & Support</h4>
-        <a href="" className="text-white">View Requests</a>
+        <a href="#" className="text-white">View Requests</a>
       </div>
 
       {/* Main Row */}
@@ -28,10 +28,10 @@ function Hero() {
           />
 
           <div className="d-flex flex-column  text-start">
-            <a href="" className="text-white">Getting started with GatiStocks</a>
-            <a href="" className="text-white">Understanding dashboard features</a>
-            <a href="" className="text-white">Exploring trading interface</a>
-            <a href="" className="text-white">Platform user guide</a>
+            <a href="#" className="text-white">Getting started with GatiStocks</a>
+            <a href="#" className="text-white">Understanding dashboard features</a>
+            <a href="#" className="text-white">Exploring trading interface</a>
+            <a href="#" className="text-white">Platform user guide</a>
           </div>
         </div>
 
@@ -46,7 +46,7 @@ function Hero() {
               </a>
             </li>
             <li>
-              <a href="" className="text-white">
+              <a href="#" className="text-white">
                 How data visualization works
               </a>
             </li>

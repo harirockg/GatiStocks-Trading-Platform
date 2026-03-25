@@ -10,7 +10,7 @@ function Hero() {
         </h3>
         <p className="mt-3 mb-5">
           Explore{" "}
-          <a href="" style={{ textDecoration: "none" }}>
+          <a href="#" style={{ textDecoration: "none" }}>
             GatiStocks <i class="fa-solid fa-arrow-right-long"></i> 
           </a>
            a modern platform with real-time data and clean UI.
