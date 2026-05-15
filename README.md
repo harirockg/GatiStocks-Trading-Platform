@@ -1,4 +1,5 @@
 # 🚀 GatiStocks – Full Stack Stock Trading Simulator
+A Data-Driven Financial Trading Platform with Real-Time Market Data Processing and Analytical Dashboard
 
 GatiStocks is a full-stack stock trading simulation platform inspired by real-world trading systems. It allows users to simulate buying and selling stocks with dynamic price updates, portfolio tracking, and real-time analytics.
 
